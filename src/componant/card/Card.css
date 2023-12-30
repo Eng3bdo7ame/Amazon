@@ -1,0 +1,73 @@
+.card_title {
+    text-align: center;
+    margin: 20px 0px 20px !important;
+    font-weight: 700;
+    font-size: 25px;
+    text-shadow: 2px 2px 9px #000000;
+    color: #0f078a;
+}
+
+.emptycard {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    background-color: #8f9292;
+    margin-top: 30px !important;
+    width: 100% !important;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.emptycard h1 {
+    text-shadow: 2px 2px 9px #000000;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.clearerallProduct {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+}
+
+.quantity_item {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.quantity_item input {
+    width: 70px;
+    height: 25px;
+}
+
+.Pricetotal {
+    position: fixed;
+    top: 74px;
+    right: 0px;
+    background-color: #c4c4c4;
+    padding: 15px 30px;
+    border-radius: 26px 0px;
+}
+
+.Pricetotal h5 {
+    color: #d00000;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 2px solid;
+    padding: 2px 0px 7px;
+}
+
+.Pricetotal h6 {
+    font-size: 20px;
+}
+
+.Pricetotal span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #d00000;
+}
